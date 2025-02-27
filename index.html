@@ -4,16 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Broom Tracker</title>
-    <script defer src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
-    <script defer src="https://www.gstatic.com/firebasejs/9.6.1/firebase-database.js"></script>
-    <script defer src="script.js"></script>
 </head>
 <body>
-    <h2>Broom Tracker</h2>
+    <h1>Broom Tracker</h1>
     <p id="status">Loading...</p>
-    
+
     <input type="text" id="nameInput" placeholder="Enter your name">
     <button onclick="takeBroom()">Take Broom</button>
     <button onclick="returnBroom()">Return Broom</button>
+
+    <div id="history">
+        <h3>History Log:</h3>
+        <!-- History will be shown here -->
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
