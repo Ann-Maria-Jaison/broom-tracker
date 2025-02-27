@@ -7,6 +7,8 @@ async function getStatus() {
     document.getElementById("status").innerText = data.broomHolder 
         ? `Broom is with ${data.broomHolder}` 
         : "Broom is available";
+
+    updateHistory(data.historyLog);
 }
 
 async function takeBroom() {
@@ -30,6 +32,17 @@ async function returnBroom() {
     });
 
     getStatus();
+}
+
+function updateHistory(history) {
+    const historyContainer = document.getElementById("history");
+    historyContainer.innerHTML = "<h3>History Log:</h3>";
+
+    history.forEach(entry => {
+        const logItem = document.createElement("p");
+        logItem.innerText = `${entry.name} took the broom at ${entry.time}`;
+        historyContainer.appendChild(logItem);
+    });
 }
 
 // Load status on page load
