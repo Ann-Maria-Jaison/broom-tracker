@@ -1,4 +1,4 @@
-const API_URL = "https://broom-tracker-api.onrender.com"; // Replace with your Render URL
+const API_URL = "https://broom-tracker-backend.onrender.com"; // Replace with your Render URL
 
 async function getStatus() {
     const response = await fetch(`${API_URL}/status`);
