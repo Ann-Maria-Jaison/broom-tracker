@@ -4,14 +4,122 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Broom Tracker</title>
+    <link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'UnifrakturMaguntia', cursive;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #0d0d0d;
+        }
+
+        .container {
+            position: relative;
+            width: 350px;
+            padding: 20px;
+            text-align: center;
+            border-radius: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        h1 {
+            font-size: 30px;
+            color: #fff;
+            margin-bottom: 10px;
+        }
+
+        .broom-img {
+            width: 150px;
+            animation: bounce 2s infinite alternate;
+        }
+
+        #status {
+            color: #ffcc00;
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        input {
+            width: 80%;
+            padding: 10px;
+            border-radius: 10px;
+            border: none;
+            outline: none;
+            margin-top: 10px;
+            font-size: 16px;
+            text-align: center;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 15px;
+        }
+
+        button {
+            padding: 10px 20px;
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+
+        .take-btn {
+            background: #00cc66;
+            color: white;
+        }
+
+        .take-btn:hover {
+            background: #00994d;
+        }
+
+        .return-btn {
+            background: #cc3300;
+            color: white;
+        }
+
+        .return-btn:hover {
+            background: #992600;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: scale(0.8); }
+            to { opacity: 1; transform: scale(1); }
+        }
+
+        @keyframes bounce {
+            from { transform: translateY(0); }
+            to { transform: translateY(-10px); }
+        }
+    </style>
 </head>
 <body>
-    <h1>Broom Tracker</h1>
-    <p id="status">Loading...</p>
 
-    <input type="text" id="nameInput" placeholder="Enter your name">
-    <button onclick="takeBroom()">Take Broom</button>
-    <button onclick="returnBroom()">Return Broom</button>
+    <div class="container">
+        <h1>Broom Tracker</h1>
+        <img src="broom.png" alt="Broom" class="broom-img">
+        <p id="status">Loading...</p>
+
+        <input type="text" id="nameInput" placeholder="Enter your name">
+        
+        <div class="buttons">
+            <button class="take-btn" onclick="takeBroom()">Take Broom</button>
+            <button class="return-btn" onclick="returnBroom()">Return Broom</button>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
