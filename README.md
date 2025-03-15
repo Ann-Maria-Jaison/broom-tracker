@@ -45,7 +45,3 @@ As a hosteler, I often faced issues where my friends would come looking for the 
 
 ## 📜 License  
 This project is **open-source** and free to use.  
-
----
-
-Let me know if you need any modifications! 🚀
