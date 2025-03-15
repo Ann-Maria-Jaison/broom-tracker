@@ -49,4 +49,3 @@ This project is **open-source** and free to use.
 ---
 
 Let me know if you need any modifications! 🚀
-```  
