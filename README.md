@@ -20,7 +20,8 @@ As a hosteler, I often faced issues where my friends would come looking for the 
 ## 📷 Screenshots   
 Here’s how the Broom Tracker looks:  
 
-![Broom Tracker UI](assets/broom-tracker-ui.png)
+[![Broom Tracker UI](assets/broom-tracker-ui.png)](https://github.com/Ann-Maria-Jaison/broom-tracker/blob/d372b5031e00ad0ee7cd557704c78492128293b0/assets/broom-tracker-ui1.PNG)
+
 
 ## 🚀 How to Use  
 1. **Enter your name** in the text box.  
