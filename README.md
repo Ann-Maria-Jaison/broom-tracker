@@ -14,7 +14,7 @@ As a hosteler, I often faced issues where my friends would come looking for the 
 
 ## 🛠 Tech Stack  
 - **Frontend:** HTML, CSS (Glassmorphism design with animations), JavaScript  
-- **Backend:** Node.js, Express.js  
+- **Backend:** Node.js, Express.js(https://github.com/Ann-Maria-Jaison/broom-tracker-backend)
 - **Database:** JSON file stored and updated via GitHub  
 
 ## 🚀 How to Use  
