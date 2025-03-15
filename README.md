@@ -17,8 +17,10 @@ As a hosteler, I often faced issues where my friends would come looking for the 
 - **Backend:** Node.js, Express.js  
 - **Database:** JSON file stored and updated via GitHub  
 
-## 📷 Screenshots  
-*(Add screenshots of your UI here)*  
+## 📷 Screenshots   
+Here’s how the Broom Tracker looks:  
+
+![Broom Tracker UI](assets/broom-tracker-ui.png)
 
 ## 🚀 How to Use  
 1. **Enter your name** in the text box.  
