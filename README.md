@@ -1,8 +1,3 @@
-Here’s your **README.md** file for the Broom Tracker project:  
-
----
-
-```md
 # 🧹 Broom Tracker  
 
 ## 📌 About the Project  
@@ -35,7 +30,7 @@ As a hosteler, I often faced issues where my friends would come looking for the 
 1. Clone this repository:  
    ```sh
    git clone https://github.com/your-username/broom-tracker.git
-   ```  
+
 2. Install dependencies:  
    ```sh
    npm install
