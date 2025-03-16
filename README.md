@@ -1,7 +1,7 @@
 # 🧹 Broom Tracker  
 
 ## 📌 About the Project  
-Broom Tracker is a simple web app designed for hostelers to **track the shared broom in real time**. It ensures that everyone knows **who is currently using the broom** and whether it is available in the designated storage location. The system also maintains a **history log** to improve accountability and avoid confusion.  
+Broom Tracker is a simple web app designed for hostelers to **track the shared broom in real time**. It ensures that everyone knows **who is currently using the broom** and whether it is available in the designated storage location.
 
 ## 🤔 Why I Created This  
 As a hosteler, I often faced issues where my friends would come looking for the broom, only to find that it was already in use by someone else. My roommates and I also struggled to keep track of who took the broom last. To solve this problem, I built **Broom Tracker**, a real-time tracking system that ensures **efficient sharing and better coordination**.  
